@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Background: #111844
+Border-bottom: #4B5694
+color: #F8FAFC;
+color: #7288AE; */
+
+@keyframes navbar {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-navbar {
+  animation: navbar 3s linear infinite;
+}
